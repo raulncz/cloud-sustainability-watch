@@ -197,7 +197,7 @@
         function jsonp(url) {
             var script = document.createElement('script');
             script.src = url;
-            script.type = 'application/javascript';
+            script.type = 'text/javascript';
             scripts.push(script);
             document.body.appendChild(script);
         }
