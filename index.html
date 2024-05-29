@@ -16,9 +16,22 @@
             <div id="googleForm">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeXPEWUCUOdCcbyC8Dv9Nk-TbUvdkRbvPKAC0XgX_Mz4hWVyA/viewform?embedded=true"
-                    width="640" height="960" frameborder="0" scrolling="no" marginheight="0"
+                    width="640" height="958" frameborder="0" scrolling="no" marginheight="0"
                     marginwidth="0">Loading…</iframe>
             </div>
+            <h3>Join us and be a part of this amazing community.</h3>
+            <div class="linkedin-container">
+                <a href="https://www.linkedin.com/groups/14468489" text-decoration="none">
+                    <button class="linkedin-button">
+                        <img class="li-icon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />
+                        <h4>Group</h4>
+                    </button>
+                </a>
+            </div>
+            <br />
+            <br />
+            <br />
             <div class="linkedin-container">
                 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light"
                     data-type="HORIZONTAL" data-vanity="susannahhill" data-version="v1"><a
@@ -81,6 +94,18 @@
         text-align: center;
     }
 
+    h4 {
+        font-size: 30px;
+        font-weight: 200;
+        color: aliceblue;
+        opacity: .8;
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
 
     .content {
         display: inline-flex;
@@ -98,6 +123,15 @@
         justify-content: center;
     }
 
+    .linkedin-button {
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20;
+        background-color: rgba(231, 246, 245, 0.462);
+        align-items: center;
+    }
+
     body {
         background-image: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);
         background-attachment: fixed;
@@ -112,6 +146,17 @@
     #googleForm {
         text-align: center;
         margin-bottom: 40;
+    }
+
+    .li-icon {
+        height: 60;
+        width: 60;
+        margin-right: 10;
+    }
+
+    a,
+    u {
+        text-decoration: none;
     }
 </style>
 
