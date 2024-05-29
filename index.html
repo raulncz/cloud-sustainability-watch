@@ -13,6 +13,12 @@
             <h1>COMING</h1>
             <h2>SOON</h2>
             <h3>In the meantime, get in touch.</h3>
+            <div id="googleForm">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeXPEWUCUOdCcbyC8Dv9Nk-TbUvdkRbvPKAC0XgX_Mz4hWVyA/viewform?embedded=true"
+                    width="640" height="960" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0">Loading…</iframe>
+            </div>
             <div class="linkedin-container">
                 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light"
                     data-type="HORIZONTAL" data-vanity="susannahhill" data-version="v1"><a
@@ -90,17 +96,22 @@
     .linkedin-container {
         display: flex;
         justify-content: center;
-        margin-top: 40;
     }
 
     body {
         background-image: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);
+        background-attachment: fixed;
         height: 100%
     }
 
     .content-container {
         display: flex;
         justify-content: center;
+    }
+
+    #googleForm {
+        text-align: center;
+        margin-bottom: 40;
     }
 </style>
 
